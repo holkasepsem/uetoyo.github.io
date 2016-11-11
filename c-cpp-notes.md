@@ -1,5 +1,7 @@
 # C/C++ k zapamatování
 
+online C/C++ kompilátor (http://cpp.sh/)
+
 ## Práce s pamětí (rozpracované)
 
 __Pro alokaci repektive dealokaci paměti používáme v C funkce `malloc()`/`free()`,
@@ -13,7 +15,7 @@ if (ptr != NULL) {
 }
 ```
 
-V C++11 je definován typ `nullptr_t` jehož je `nullptr` instancí. Preferujem
+V C++11 je definován typ `nullptr_t` jehož je `nullptr` ?konstantou? <s>instancí</s>. Preferujem
 jeho použití před hodnotou NULL jak ji známe z C.
 
 ```c++
