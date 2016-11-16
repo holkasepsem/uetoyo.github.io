@@ -1,6 +1,7 @@
 # C/C++ k zapamatování
 
 online C/C++ kompilátor (http://cpp.sh/)
+http://en.cppreference.com/w/cpp/memory/new/nothrow
 
 ## Práce s pamětí (rozpracované)
 

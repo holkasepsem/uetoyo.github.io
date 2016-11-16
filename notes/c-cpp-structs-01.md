@@ -9,7 +9,8 @@ atributy x, y, které reprezentují jeho souřadnice v euklidovském prostoru.
         double x, y; 
     };
 
-Podobně bychom vytvářeli i strukturu v C, ale struktura v C++ se sémanticky liší od struktury v C v několika ohledech (porovnání s C na konci článku). 
+Podobně bychom vytvářeli i strukturu v
+ C, ale struktura v C++ se sémanticky liší od struktury v C v několika ohledech (porovnání s C na konci článku). 
 
 Struktura v C++ je vlastně třída, jejíž všechny členské proměnné (případně metody) jsou veřejné, tedy označené modifikátorem `public`. Následující deklarace je tedy stejná jako první.
 
@@ -29,6 +30,8 @@ se ptát, co se děje na pozadí, když kompilátor narazí na takovouto deklara
 V tomto případě za nás kompilátor měl vytvořit následující věci:
 
 
+
+# Jak 
 
 
 
