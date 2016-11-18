@@ -5,7 +5,7 @@ k čemu je rozhraní, pořád mi něco nesedělo. Často jsem četl, že rozhran
 třídy, která rozhraní implementuje. Moje otázka byla, když je rozhraní kontrakt, proč mi dovoluje ho porušovat?
 
 ```java
-interface CanQuack() {
+interface CanQuack {
 	String quack();
 }
 
