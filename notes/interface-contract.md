@@ -1,8 +1,8 @@
 # Je rozhraní kontrakt?
 
-Když jsem se usilovně snažil, při snaze pochopi objektově orientovaného programování ,
-k čemu je rozhraní, pořád mi něco nesedělo. Často jsem četl, že rozhraní je kontrakt.
-Moje otázka byla, když je rozhraní kontrakt, proč mi dovoluje ho porušovat?
+Když jsem se usilovně snažil, při snaze pochopit objektově orientovaného programování,
+k čemu je rozhraní, pořád mi něco nesedělo. Často jsem četl, že rozhraní je kontrakt mezi mnou a uživatelem
+třídy, která rozhraní implementuje. Moje otázka byla, když je rozhraní kontrakt, proč mi dovoluje ho porušovat?
 
 ```java
 interface CanQuack() {
@@ -16,7 +16,7 @@ class Duck implements CanQuack {
 }
 ```
 
-Odpověd je překvapivě jednoduchá. Rozhraní je pouze syntaktický kontrak nikoliv sémantický.
+Odpověd je překvapivě jednoduchá. Rozhraní je pouze syntaktický kontrakt a nikoliv sémantický.
 Pokud chceme přidat sémantický kontrakt, musíme použít buď abstraktní třídu nebo trait.
 
 Samozřejmě, že rozhraní má své místo, jen je třeba se mít na paměti, že kromě syntaxe nevynucuje 
